@@ -1,0 +1,33 @@
+modLoader = "javafml"
+loaderVersion = "[46,)"
+issueTrackerURL = "https://github.com/MrMelon54/stacked_shulker_nbt_fix/issues"
+license = "GPL-3.0-only"
+
+[[mods]]
+modId = "stacked_shulker_nbt_fix"
+version = "${version}"
+displayName = "Stacked Shulker NBT Fix"
+authors = "MrMelon54"
+description = "Fixes weird NBT data which prevents Shulker box stacking"
+logoFile = "/icon.png"
+
+[[dependencies.stacked_shulker_nbt_fix]]
+modId = "forge"
+mandatory = true
+versionRange = "[46,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.stacked_shulker_nbt_fix]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.stacked_shulker_nbt_fix]]
+modId = "architectury"
+mandatory = true
+versionRange = "[9.0.0,)"
+ordering = "AFTER"
+side = "BOTH"

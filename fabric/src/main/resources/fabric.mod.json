@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "stacked_shulker_nbt_fix",
+  "version": "${version}",
+  "name": "Stacked Shulker NBT Fix",
+  "description": "Fixes weird NBT data which prevents Shulker box stacking",
+  "authors": [
+    "MrMelon54"
+  ],
+  "contact": {
+    "homepage": "https://mrmelon54.com/minecraft/stacked-shulker-nbt-fix",
+    "sources": "https://github.com/MrMelon54/stacked_shulker_nbt_fix",
+    "issues": "https://github.com/MrMelon54/stacked_shulker_nbt_fix/issues"
+  },
+  "license": "GPL-3.0-only",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.mrmelon54.StackedShulkerNbtFix.fabric.StackedShulkerNbtFixFabric"
+    ]
+  },
+  "mixins": [
+    "stacked_shulker_nbt_fix.mixins.json",
+    "stacked_shulker_nbt_fix-common.mixins.json"
+  ],
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=1.20",
+    "architectury": ">=9.0.0"
+  }
+}

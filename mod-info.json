@@ -1,0 +1,10 @@
+{
+  "modid": "stacked_shulker_nbt_fix",
+  "modname": "Stacked Shulker NBT Fix",
+  "modclass": "StackedShulkerNbtFix",
+  "modgroup": "com.mrmelon54.StackedShulkerNbtFix",
+  "moddesc": "Fixes weird NBT data which prevents Shulker box stacking",
+  "modwebsite": "https://mrmelon54.com/minecraft/stacked-shulker-nbt-fix",
+  "modsource": "https://github.com/MrMelon54/stacked_shulker_nbt_fix",
+  "modissue": "https://github.com/MrMelon54/stacked_shulker_nbt_fix/issues"
+}
